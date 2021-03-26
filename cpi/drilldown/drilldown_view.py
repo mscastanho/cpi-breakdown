@@ -20,7 +20,7 @@ limitations under the License.
         * Rafael Peria de Sene <rpsene@br.ibm.com>
 """
 
-from drilldown_model import DrilldownModel
+from cpi.drilldown.drilldown_model import DrilldownModel
 
 TABULATION = "    "
 
