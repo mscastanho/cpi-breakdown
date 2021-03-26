@@ -68,7 +68,8 @@ def main(argv=None):
         parser.add_argument('-V', '--version',
                             action='version',
                             version=program_version_message)
-        subparsers = parser.add_subparsers(help='\nCPI commands\n\n')
+        subparsers = parser.add_subparsers(dest='parser', help='\nCPI commands\n\n')
+        subparsers.required = True
 
         # Data Record
         parser_record = subparsers.add_parser(

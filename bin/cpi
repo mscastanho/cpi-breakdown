@@ -20,5 +20,5 @@ limitations under the License.
         * Rafael Peria de Sene <rpsene@br.ibm.com>
 """
 
-from cpi import cpi
-cpi.main()
+from cpi import main
+main.main()
